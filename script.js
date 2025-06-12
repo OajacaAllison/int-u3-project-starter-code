@@ -1,26 +1,7 @@
-// Declare variables below to save the different divs of your story.
+let meow = document.querySelector(".fsubmit");
+let fakeform = document.querySelector(".urname");
+let 
 
-
-
-
-
-
-
-
-
-// When you're ready to make event handlers, uncomment the code below. 
-//  - Then fill in the blanks with the correct variables.
-
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
-
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
+fsubmit.addEventListener("click", function() {
+    urname.style.display = "none";
+})
