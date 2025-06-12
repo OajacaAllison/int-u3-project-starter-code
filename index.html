@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
-<script src="myscripts.js"></script>
+<script src="script.js"></script>
 <link rel="stylesheet" href="style.css">
-    <head>
-        <header class="title">Misleading</header>
-    </head>
-    <body>
-    <form class="urname">
-        <label>Your name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <button class="fsubmit"> Submit </button>
-    </form>
-    <h1 class="actualname">JK YOUR NAME IS JAKE!</h1>
-    <button class="nextname">Next</button>
-    </body>
+
+<head>
+    <header class="title">Misleading</header>
+</head>
+
+<body>
+    <div class = "hide">
+        <!-- <label>Your name:</label> -->
+        <form id ="urname">
+            Your name: <input type="text">
+            <input type="button" id="fakeBtn" value="submit" style="width:100px">
+        </form>
+    </div>
+
+
+    <div id="real">
+        <h1 class="actualname">JK YOUR NAME IS JAKE!</h1>
+        <button class="nextname">Next</button>
+    </div>
+</body>
+
 </html>
