@@ -94,15 +94,22 @@ mehBtn.addEventListener("click", function () {
   document.body.style.backgroundImage =
     "url(https://wallpapers.com/images/hd/anime-school-background-dh3ommnxthw4nln7.jpg)";
   sect2.style.display = "none";
-  burn.style.display  = "flex";  
+  forget.style.display  = "flex";  
 });
 
 let sect3 = document.getElementsByClassName("section3") [0];
 let nextbtn = document.getElementsByClassName("next")[0];
+let nextbtn2 = document.getElementsByClassName("next2")[0];
+
 nextbtn.addEventListener("click", function(){
     forget.style.display = "none";
     burn.style.display  = "none";  
     sect3.style.display = "flex";
+})
+nextbtn2.addEventListener("click", function(){
+  forget.style.display = "none";
+  burn.style.display  = "none"; 
+  sect3.style.display = "flex";
 })
 let apolBtn = document.getElementsByClassName ("apology")[0];
 let notBtn = document.getElementsByClassName("nothing")[0];
