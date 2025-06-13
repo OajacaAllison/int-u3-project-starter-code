@@ -315,3 +315,15 @@ font-size: 25px;
 .fire {
     width: 500px
 }
+
+.bad,
+.good {
+    font-size: 50px;
+    text-align: center;
+}
+.bad {
+    color: red;
+}
+.good {
+    color: green;
+}
